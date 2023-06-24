@@ -1,0 +1,221 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+    font-family: "Merriweather",serif;
+    text-align: center;
+    color: #40514e;
+}
+.topcontainer{
+    width: 100%;
+    margin: 0px;
+    padding-top: 40px;
+    background-color: #e4f9f5;
+}
+.cloudpng1{
+    margin-left: 60%;
+}
+.nametext{
+    text-align: center;
+    font-family:"Merriweather", serif ;
+    margin: 40px 0px 40px 0px;
+}
+h1{
+    font-size:5rem;
+    color: #66bfbf;
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+}
+h2{
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 10px;
+}
+.cloudpng2{
+    position:absolute;
+    left:10%;
+    top: 350px;
+}
+.mountainpng{
+    margin-top:20px;
+    width: 40%;
+}
+.topcontainer span{
+    text-decoration: underline;
+}
+.profilephoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.profilephotopng{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.intro{
+    padding-top: 20px;
+   text-align: center; 
+}
+.intro p{
+    font-size: 16px;
+    width:30%;
+    margin-left:35%;
+    line-height:35px;
+}
+hr{
+    border: dotted #8a8d8d 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.skills h2{
+    text-align: center;
+}
+h3{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+
+.skills{
+    width:50%;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap:10px;
+    row-gap:30px;
+    margin:100px auto 0 auto;
+}
+
+.DsandDevimg img{
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 100%;
+}
+.DsandDevinfo p{
+  line-height:35px;
+  text-align: left;
+}
+.DsandDevinfo h3{
+    text-align: left;
+}
+
+.speaking_leadershipinfo p{
+    line-height:35px;
+    text-align: left;
+}
+.speaking_leadershipinfo h3{
+    text-align: left;
+}
+
+.speaking_leadershippng{
+    width: 300px;
+}
+.speaking_leadershippng img{
+    border: 2px solid green;
+    border-radius:10px ;
+    width:300px;
+    height:228px;
+}
+
+.contactme>p{
+    width: 40%;
+    margin:50px auto 50px auto;
+    font-size: 16px;
+    line-height: 30px;
+}
+.contactbtn{
+    background-color:#0babb1;
+    height:80px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+}
+.contactbtn:hover{
+    background-color:#30e3cb;
+}
+.footercontainer{
+    font-size: 16px;
+    margin-top: 50px;
+    width: 100%;
+    height:150px;
+    text-align: center;
+    background-color: #66bfbf;
+    padding-top: 50px;
+}
+.footercontainer a{
+    width: max-content;
+    margin-left: 20px;
+    text-decoration: none;
+    color:#11999e;
+}
+.footercontainer a:hover{
+    color: white;
+}
+.footercontainer p{
+    font-size: 12px;
+    margin-top: 30px;
+    color:#11999e ;
+}
+
+.webproject{
+    width: 50%;
+    height:max-content;
+    margin:20px auto 40px auto;
+}
+.work h4{
+    margin-top: 50px;
+    color:#11999e ;
+}
+::-webkit-scrollbar{
+    color: aliceblue;
+    width: 0px;
+}
+
+
+
+
+@media(min-width:300px) and (max-width:500px) {
+    body{
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+    font-family: "Merriweather",serif;
+    text-align: center;
+    color: #40514e;
+    }
+    .mountainpng{
+        width:100%;
+    }
+    .skills{
+        display: block;
+        width:100%;
+        padding:0px 20px 20px 20px;
+    }
+    .DsandDevimg 
+    {
+        width: 70%;   
+    }
+    .DsandDevimg img
+    {
+        width: 100%;
+    }
+    .DsandDevinfo{
+        width: 70%;
+    }
+    .speaking_leadershippng{
+        margin-top: 50px;
+        width: 70%;
+    }
+    .speaking_leadershippng img{
+        width: 100%;
+    }
+    .speaking_leadershipinfo{
+        width: 70%;
+    }
+    
+}
